@@ -1,0 +1,12 @@
+{
+  "global_numpy_seed": 42,
+  "per_component": {
+    "moran_permutation": {"seed": 42, "n_perm": 999},
+    "lisa_permutation": {"seed": 42, "n_perm": 999},
+    "power_curve_simulation": {"seed": 42, "n_sim_per_point": 100},
+    "bai_perron_binseg": {"seed": "deterministic", "min_size_frac": 0.15},
+    "sarimax_fit": {"seed": "deterministic", "solver": "lbfgs"},
+    "welch_t_from_summary": {"seed": "deterministic"}
+  },
+  "note": "모든 stochastic 계산은 compute_stats_v21.py 상단의 np.random.seed(42) 호출에 의해 고정된다. bai_perron·sarimax·welch는 결정적 알고리즘이며 재현을 보장한다."
+}

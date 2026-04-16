@@ -1,0 +1,24 @@
+# 대용량 원자료 (서울 열린데이터광장에서 재다운로드 가능)
+*.csv
+!station_master.csv
+!data_manifest.csv
+!district_monthly_pivot.csv
+
+# 제출 산출물
+*.xlsx
+
+# 임시
+__pycache__/
+*.pyc
+.DS_Store
+report.html
+report_technical.html
+
+# 백업 PDF (최종본만 유지)
+보고서_따릉이_이용패턴_분석.v*.pdf
+보고서_따릉이_이용패턴_분석.final.pdf
+따릉이_기술부록.v*.pdf
+
+# 가상환경
+venv/
+.venv/

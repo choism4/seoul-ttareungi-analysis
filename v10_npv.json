@@ -1,0 +1,61 @@
+{
+  "scenarios": [
+    {
+      "name": "비관",
+      "rate_pct": 5.0,
+      "unit_price": 2200000,
+      "converted_units": 2250,
+      "investment_won": 4950000000,
+      "annual_revenue_won": 96605700,
+      "annual_opex_won": 225000000,
+      "annual_net_won": -128394299,
+      "npv_won": -6328896455,
+      "irr_pct": NaN,
+      "simple_payback_years": Infinity,
+      "life_years": 15
+    },
+    {
+      "name": "기준",
+      "rate_pct": 10.0,
+      "unit_price": 2000000,
+      "converted_units": 4500,
+      "investment_won": 9000000000,
+      "annual_revenue_won": 193211400,
+      "annual_opex_won": 450000000,
+      "annual_net_won": -256788599,
+      "npv_won": -11757792911,
+      "irr_pct": NaN,
+      "simple_payback_years": Infinity,
+      "life_years": 15
+    },
+    {
+      "name": "낙관",
+      "rate_pct": 15.0,
+      "unit_price": 1800000,
+      "converted_units": 6750,
+      "investment_won": 12150000000,
+      "annual_revenue_won": 289817100,
+      "annual_opex_won": 675000000,
+      "annual_net_won": -385182900,
+      "npv_won": -16286689367,
+      "irr_pct": NaN,
+      "simple_payback_years": Infinity,
+      "life_years": 15
+    }
+  ],
+  "discount_rate": 0.045,
+  "gender_adj": [
+    {
+      "year": 2019,
+      "raw_mf": 1.69,
+      "adj_mf": 1.69,
+      "misu_pct": 57.2
+    },
+    {
+      "year": 2025,
+      "raw_mf": 1.86,
+      "adj_mf": 1.86,
+      "misu_pct": 25.4
+    }
+  ]
+}

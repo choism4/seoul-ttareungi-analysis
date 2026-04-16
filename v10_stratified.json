@@ -1,0 +1,58 @@
+{
+  "by_year": {
+    "2019": {
+      "n": 11,
+      "slope": 66228.0,
+      "intercept": 677524.0,
+      "r_sq": 0.8133,
+      "p_value": 0.0001
+    },
+    "2020": {
+      "n": 12,
+      "slope": 61636.0,
+      "intercept": 1157726.0,
+      "r_sq": 0.5791,
+      "p_value": 0.004
+    },
+    "2021": {
+      "n": 12,
+      "slope": 83922.0,
+      "intercept": 1519702.0,
+      "r_sq": 0.8055,
+      "p_value": 0.0001
+    },
+    "2022": {
+      "n": 12,
+      "slope": 102753.0,
+      "intercept": 2052796.0,
+      "r_sq": 0.7318,
+      "p_value": 0.0004
+    },
+    "2023": {
+      "n": 12,
+      "slope": 92258.0,
+      "intercept": 2445836.0,
+      "r_sq": 0.6225,
+      "p_value": 0.0023
+    },
+    "2024": {
+      "n": 12,
+      "slope": 81279.0,
+      "intercept": 2446460.0,
+      "r_sq": 0.6298,
+      "p_value": 0.0021
+    },
+    "2025": {
+      "n": 12,
+      "slope": 70956.0,
+      "intercept": 2116306.0,
+      "r_sq": 0.771,
+      "p_value": 0.0002
+    }
+  },
+  "pooled_slope": 81119.0,
+  "pooled_r_sq": 0.4275,
+  "stratified_mean_slope": 79862.0,
+  "stratified_median_slope": 81279.0,
+  "stratified_std_slope": 13594.0
+}

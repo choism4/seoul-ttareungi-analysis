@@ -1,0 +1,15 @@
+filename,description,bytes,rows,sha256,source_url,retrieved_at
+monthly_aggregate.json,2019~2025 월별 집계,16422,83,bd7f65e154c7dc3aba5c398b18900bcf4c2115f6419d10c275a18f56d8d6b1be,https://data.seoul.go.kr/dataList/OA-15248,2026-04-16
+district_monthly.json,자치구×월 집계,134336,2184,9a6a80b7946916973e1969b34276956561ea14ad1cf613f4902bfcf22e744ac6,https://data.seoul.go.kr/dataList/OA-15248,2026-04-16
+age_monthly.json,연령×월 집계,12954,83,9d8fac0165574fd88aa698a59bbf0ea3bcf914c5390cc26838c4048cd3bf0ce6,https://data.seoul.go.kr/dataList/OA-15248,2026-04-16
+age_yearly.json,연령×연 집계,1133,7,eb846c9fbf95f780b6e43987ee4957f13250d82a53d42a563943ec86112f108c,https://data.seoul.go.kr/dataList/OA-15248,2026-04-16
+gender_monthly.json,성별×월 집계,4922,83,24e74acb2b09ba903abdfbfcca9d57eb0a28ca9340568842c2ced520c21d9e7c,https://data.seoul.go.kr/dataList/OA-15248,2026-04-16
+gender_yearly.json,성별×연 집계,414,7,2308a159cb99662064d26408f04969e8b42cd9d043ca67f8187f370bf059bb9a,https://data.seoul.go.kr/dataList/OA-15248,2026-04-16
+seoul_temperature.json,서울 월평균기온,4850,84,8b72f932cde03e4ac801cb053e980064b193aa4fb30758566c952215cb31ee51,https://open-meteo.com/,2026-04-14
+station_master.csv,대여소 마스터,189913,2799,3565ae0454aff4216cec01090777f39e936e1ba5f054e3f413863fef3eded5ff,https://data.seoul.go.kr/dataList/OA-13252,2026-04-14
+seoul_districts.geojson,서울 25자치구 경계,57732,24,2bb208614451c9f2a096cd62204063d6b27e57dcb7650a35ac19c06f1a84eb03,https://github.com/southkorea/seoul-maps,2026-04-14
+districts_adjacency.json,Queen 인접행렬,3319,4,306b55a777ffb652c905a87f465dea732a67044224a033ed95f211e14af70fe5,본 분석 (libpysal 파생),2026-04-16
+v10_stratified.json,연도별 stratified OLS,1132,6,688dec71993846ab7f8b7bbd705be0502b5155b4bffdb7ce38ec0cec9625038c,본 분석,2026-04-16
+v10_npv.json,기존 NPV 시나리오,1421,3,0e95398540cd2323856f9abd3f301bc8b61dfc070bb5e48bd084b6423400e5dc,본 분석,2026-04-16
+v21_stats.json,V21 통계 계산,13754,10,6cf46cef1c1ab3d7d7dcbfdaf6b2463786968130f6d960054702c521bb0c1350,본 분석 (compute_stats_v21.py),2026-04-16
+v21_finance.json,V21 재무 계산,25664,4,d63f25cb29898b4f255906f8770c8df2e96e87793e225c03052b1cb69211009c,본 분석 (compute_finance_v21.py),2026-04-16

@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "본 저장소를 인용할 경우 아래 메타데이터를 사용하십시오."
+title: "서울 따릉이 이용 패턴 분석 (2019–2025): 구조변화·공간분포·정책 재무 통합 연구"
+authors:
+  - family-names: "최"
+    given-names: "성민"
+    affiliation: "중앙대학교 소프트웨어학부"
+    student-id: "20203876"
+version: "1.0"
+date-released: "2026-05-10"
+type: report
+keywords:
+  - "공공자전거"
+  - "따릉이"
+  - "시계열 구조변화"
+  - "공간자기상관"
+  - "LISA"
+  - "공공가치 회계"
+  - "SARIMAX"
+  - "Bai-Perron"
+license: "CC-BY-4.0"

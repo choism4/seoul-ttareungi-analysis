@@ -1,0 +1,948 @@
+{
+  "parameters": {
+    "N_years": 15,
+    "discount_rates": [
+      0.03,
+      0.045,
+      0.055
+    ],
+    "annual_usage_2025": 37370000,
+    "avg_trip_km": 2.4,
+    "mode_shift_car_pct": 0.3,
+    "K_ETS_price_per_tCO2": 40000,
+    "CO2_per_km_car_kg": 0.192,
+    "VSL_KR": 5000000000,
+    "HEAT_relative_risk_reduction": 0.07,
+    "HEAT_participation_rate": 0.01,
+    "value_of_time_KRW_per_hour": 18500,
+    "congestion_time_saving_hours_per_trip": 0.02
+  },
+  "alternatives": {
+    "Alt1_DoNothing": {
+      "by_discount_rate": {
+        "dr_030": {
+          "npv": -272.5,
+          "bc_ratio": 0.778,
+          "irr": null,
+          "payback_years": null
+        },
+        "dr_045": {
+          "npv": -244.06,
+          "bc_ratio": 0.783,
+          "irr": null,
+          "payback_years": null
+        },
+        "dr_055": {
+          "npv": -227.42,
+          "bc_ratio": 0.785,
+          "irr": null,
+          "payback_years": null
+        }
+      },
+      "annual_cashflows": [
+        {
+          "year": 0.0,
+          "usage": 37370000.0,
+          "capex": 0.0,
+          "opex": 10000000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 206641152.0,
+          "health_benefit": 4479280822.0,
+          "congestion_benefit": 4148070000.0,
+          "total_benefit": 8833991974.0,
+          "total_cost": 10000000000.0,
+          "net": -1166008026.0
+        },
+        {
+          "year": 1.0,
+          "usage": 36622600.0,
+          "capex": 0.0,
+          "opex": 10000000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 202508329.0,
+          "health_benefit": 4389695205.0,
+          "congestion_benefit": 4065108600.0,
+          "total_benefit": 8657312134.0,
+          "total_cost": 10000000000.0,
+          "net": -1342687866.0
+        },
+        {
+          "year": 2.0,
+          "usage": 35890148.0,
+          "capex": 0.0,
+          "opex": 10000000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 198458162.0,
+          "health_benefit": 4301901301.0,
+          "congestion_benefit": 3983806428.0,
+          "total_benefit": 8484165892.0,
+          "total_cost": 10000000000.0,
+          "net": -1515834108.0
+        },
+        {
+          "year": 3.0,
+          "usage": 35172345.0,
+          "capex": 0.0,
+          "opex": 10000000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 194488999.0,
+          "health_benefit": 4215863275.0,
+          "congestion_benefit": 3904130299.0,
+          "total_benefit": 8314482574.0,
+          "total_cost": 10000000000.0,
+          "net": -1685517426.0
+        },
+        {
+          "year": 4.0,
+          "usage": 34468898.0,
+          "capex": 0.0,
+          "opex": 10000000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 190599219.0,
+          "health_benefit": 4131546010.0,
+          "congestion_benefit": 3826047693.0,
+          "total_benefit": 8148192922.0,
+          "total_cost": 10000000000.0,
+          "net": -1851807078.0
+        },
+        {
+          "year": 5.0,
+          "usage": 33779520.0,
+          "capex": 0.0,
+          "opex": 10000000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 186787235.0,
+          "health_benefit": 4048915090.0,
+          "congestion_benefit": 3749526740.0,
+          "total_benefit": 7985229064.0,
+          "total_cost": 10000000000.0,
+          "net": -2014770936.0
+        },
+        {
+          "year": 6.0,
+          "usage": 33103930.0,
+          "capex": 0.0,
+          "opex": 10000000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 183051490.0,
+          "health_benefit": 3967936788.0,
+          "congestion_benefit": 3674536205.0,
+          "total_benefit": 7825524483.0,
+          "total_cost": 10000000000.0,
+          "net": -2174475517.0
+        },
+        {
+          "year": 7.0,
+          "usage": 32441851.0,
+          "capex": 0.0,
+          "opex": 10000000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 179390460.0,
+          "health_benefit": 3888578052.0,
+          "congestion_benefit": 3601045481.0,
+          "total_benefit": 7669013993.0,
+          "total_cost": 10000000000.0,
+          "net": -2330986007.0
+        },
+        {
+          "year": 8.0,
+          "usage": 31793014.0,
+          "capex": 0.0,
+          "opex": 10000000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 175802651.0,
+          "health_benefit": 3810806491.0,
+          "congestion_benefit": 3529024571.0,
+          "total_benefit": 7515633713.0,
+          "total_cost": 10000000000.0,
+          "net": -2484366287.0
+        },
+        {
+          "year": 9.0,
+          "usage": 31157154.0,
+          "capex": 0.0,
+          "opex": 10000000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 172286598.0,
+          "health_benefit": 3734590361.0,
+          "congestion_benefit": 3458444080.0,
+          "total_benefit": 7365321039.0,
+          "total_cost": 10000000000.0,
+          "net": -2634678961.0
+        },
+        {
+          "year": 10.0,
+          "usage": 30534011.0,
+          "capex": 0.0,
+          "opex": 10000000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 168840866.0,
+          "health_benefit": 3659898554.0,
+          "congestion_benefit": 3389275198.0,
+          "total_benefit": 7218014618.0,
+          "total_cost": 10000000000.0,
+          "net": -2781985382.0
+        },
+        {
+          "year": 11.0,
+          "usage": 29923331.0,
+          "capex": 0.0,
+          "opex": 10000000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 165464049.0,
+          "health_benefit": 3586700583.0,
+          "congestion_benefit": 3321489694.0,
+          "total_benefit": 7073654326.0,
+          "total_cost": 10000000000.0,
+          "net": -2926345674.0
+        },
+        {
+          "year": 12.0,
+          "usage": 29324864.0,
+          "capex": 0.0,
+          "opex": 10000000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 162154768.0,
+          "health_benefit": 3514966571.0,
+          "congestion_benefit": 3255059900.0,
+          "total_benefit": 6932181239.0,
+          "total_cost": 10000000000.0,
+          "net": -3067818761.0
+        },
+        {
+          "year": 13.0,
+          "usage": 28738367.0,
+          "capex": 0.0,
+          "opex": 10000000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 158911672.0,
+          "health_benefit": 3444667240.0,
+          "congestion_benefit": 3189958702.0,
+          "total_benefit": 6793537614.0,
+          "total_cost": 10000000000.0,
+          "net": -3206462386.0
+        },
+        {
+          "year": 14.0,
+          "usage": 28163599.0,
+          "capex": 0.0,
+          "opex": 10000000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 155733439.0,
+          "health_benefit": 3375773895.0,
+          "congestion_benefit": 3126159528.0,
+          "total_benefit": 6657666862.0,
+          "total_cost": 10000000000.0,
+          "net": -3342333138.0
+        }
+      ]
+    },
+    "Alt2_Regular": {
+      "by_discount_rate": {
+        "dr_030": {
+          "npv": -140.5,
+          "bc_ratio": 0.897,
+          "irr": null,
+          "payback_years": null
+        },
+        "dr_045": {
+          "npv": -133.05,
+          "bc_ratio": 0.893,
+          "irr": null,
+          "payback_years": null
+        },
+        "dr_055": {
+          "npv": -128.63,
+          "bc_ratio": 0.891,
+          "irr": null,
+          "payback_years": null
+        }
+      },
+      "annual_cashflows": [
+        {
+          "year": 0.0,
+          "usage": 37370000.0,
+          "capex": 3150000000.0,
+          "opex": 10540000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 206641152.0,
+          "health_benefit": 4479280822.0,
+          "congestion_benefit": 4148070000.0,
+          "total_benefit": 8833991974.0,
+          "total_cost": 13690000000.0,
+          "net": -4856008026.0
+        },
+        {
+          "year": 1.0,
+          "usage": 38191250.0,
+          "capex": 0.0,
+          "opex": 10540000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 211182336.0,
+          "health_benefit": 4577718322.0,
+          "congestion_benefit": 4239228750.0,
+          "total_benefit": 9028129408.0,
+          "total_cost": 10540000000.0,
+          "net": -1511870592.0
+        },
+        {
+          "year": 2.0,
+          "usage": 39012500.0,
+          "capex": 0.0,
+          "opex": 10540000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 215723520.0,
+          "health_benefit": 4676155822.0,
+          "congestion_benefit": 4330387500.0,
+          "total_benefit": 9222266842.0,
+          "total_cost": 10540000000.0,
+          "net": -1317733158.0
+        },
+        {
+          "year": 3.0,
+          "usage": 39833750.0,
+          "capex": 0.0,
+          "opex": 10540000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 220264704.0,
+          "health_benefit": 4774593322.0,
+          "congestion_benefit": 4421546250.0,
+          "total_benefit": 9416404276.0,
+          "total_cost": 10540000000.0,
+          "net": -1123595724.0
+        },
+        {
+          "year": 4.0,
+          "usage": 40655000.0,
+          "capex": 0.0,
+          "opex": 10540000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 224805888.0,
+          "health_benefit": 4873030822.0,
+          "congestion_benefit": 4512705000.0,
+          "total_benefit": 9610541710.0,
+          "total_cost": 10540000000.0,
+          "net": -929458290.0
+        },
+        {
+          "year": 5.0,
+          "usage": 41476250.0,
+          "capex": 0.0,
+          "opex": 10540000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 229347072.0,
+          "health_benefit": 4971468322.0,
+          "congestion_benefit": 4603863750.0,
+          "total_benefit": 9804679144.0,
+          "total_cost": 10540000000.0,
+          "net": -735320856.0
+        },
+        {
+          "year": 6.0,
+          "usage": 42297500.0,
+          "capex": 0.0,
+          "opex": 10540000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 233888256.0,
+          "health_benefit": 5069905822.0,
+          "congestion_benefit": 4695022500.0,
+          "total_benefit": 9998816578.0,
+          "total_cost": 10540000000.0,
+          "net": -541183422.0
+        },
+        {
+          "year": 7.0,
+          "usage": 43118750.0,
+          "capex": 0.0,
+          "opex": 10540000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 238429440.0,
+          "health_benefit": 5168343322.0,
+          "congestion_benefit": 4786181250.0,
+          "total_benefit": 10192954012.0,
+          "total_cost": 10540000000.0,
+          "net": -347045988.0
+        },
+        {
+          "year": 8.0,
+          "usage": 43940000.0,
+          "capex": 0.0,
+          "opex": 10540000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 242970624.0,
+          "health_benefit": 5266780822.0,
+          "congestion_benefit": 4877340000.0,
+          "total_benefit": 10387091446.0,
+          "total_cost": 10540000000.0,
+          "net": -152908554.0
+        },
+        {
+          "year": 9.0,
+          "usage": 44761250.0,
+          "capex": 0.0,
+          "opex": 10540000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 247511808.0,
+          "health_benefit": 5365218322.0,
+          "congestion_benefit": 4968498750.0,
+          "total_benefit": 10581228880.0,
+          "total_cost": 10540000000.0,
+          "net": 41228880.0
+        },
+        {
+          "year": 10.0,
+          "usage": 45582500.0,
+          "capex": 1575000000.0,
+          "opex": 10540000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 252052992.0,
+          "health_benefit": 5463655822.0,
+          "congestion_benefit": 5059657500.0,
+          "total_benefit": 10775366314.0,
+          "total_cost": 12115000000.0,
+          "net": -1339633686.0
+        },
+        {
+          "year": 11.0,
+          "usage": 46403750.0,
+          "capex": 1575000000.0,
+          "opex": 10540000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 256594176.0,
+          "health_benefit": 5562093322.0,
+          "congestion_benefit": 5150816250.0,
+          "total_benefit": 10969503748.0,
+          "total_cost": 12115000000.0,
+          "net": -1145496252.0
+        },
+        {
+          "year": 12.0,
+          "usage": 47225000.0,
+          "capex": 1575000000.0,
+          "opex": 10540000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 261135360.0,
+          "health_benefit": 5660530822.0,
+          "congestion_benefit": 5241975000.0,
+          "total_benefit": 11163641182.0,
+          "total_cost": 12115000000.0,
+          "net": -951358818.0
+        },
+        {
+          "year": 13.0,
+          "usage": 48046250.0,
+          "capex": 1575000000.0,
+          "opex": 10540000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 265676544.0,
+          "health_benefit": 5758968322.0,
+          "congestion_benefit": 5333133750.0,
+          "total_benefit": 11357778616.0,
+          "total_cost": 12115000000.0,
+          "net": -757221384.0
+        },
+        {
+          "year": 14.0,
+          "usage": 48867500.0,
+          "capex": 1575000000.0,
+          "opex": 10540000000.0,
+          "salvage": 315000000.0,
+          "carbon_benefit": 270217728.0,
+          "health_benefit": 5857405822.0,
+          "congestion_benefit": 5424292500.0,
+          "total_benefit": 11551916050.0,
+          "total_cost": 12115000000.0,
+          "net": -248083950.0
+        }
+      ]
+    },
+    "Alt3_Ebike": {
+      "by_discount_rate": {
+        "dr_030": {
+          "npv": -147.16,
+          "bc_ratio": 0.894,
+          "irr": -8.97,
+          "payback_years": null
+        },
+        "dr_045": {
+          "npv": -151.98,
+          "bc_ratio": 0.882,
+          "irr": -8.97,
+          "payback_years": null
+        },
+        "dr_055": {
+          "npv": -154.51,
+          "bc_ratio": 0.874,
+          "irr": -8.97,
+          "payback_years": null
+        }
+      },
+      "annual_cashflows": [
+        {
+          "year": 0.0,
+          "usage": 37370000.0,
+          "capex": 10500000000.0,
+          "opex": 10810000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 206641152.0,
+          "health_benefit": 4479280822.0,
+          "congestion_benefit": 4148070000.0,
+          "total_benefit": 8833991974.0,
+          "total_cost": 21310000000.0,
+          "net": -12476008026.0
+        },
+        {
+          "year": 1.0,
+          "usage": 38519750.0,
+          "capex": 0.0,
+          "opex": 10810000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 212998810.0,
+          "health_benefit": 4617093322.0,
+          "congestion_benefit": 4275692250.0,
+          "total_benefit": 9105784382.0,
+          "total_cost": 10810000000.0,
+          "net": -1704215618.0
+        },
+        {
+          "year": 2.0,
+          "usage": 39669500.0,
+          "capex": 0.0,
+          "opex": 10810000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 219356467.0,
+          "health_benefit": 4754905822.0,
+          "congestion_benefit": 4403314500.0,
+          "total_benefit": 9377576789.0,
+          "total_cost": 10810000000.0,
+          "net": -1432423211.0
+        },
+        {
+          "year": 3.0,
+          "usage": 40819250.0,
+          "capex": 0.0,
+          "opex": 10810000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 225714125.0,
+          "health_benefit": 4892718322.0,
+          "congestion_benefit": 4530936750.0,
+          "total_benefit": 9649369197.0,
+          "total_cost": 10810000000.0,
+          "net": -1160630803.0
+        },
+        {
+          "year": 4.0,
+          "usage": 41969000.0,
+          "capex": 0.0,
+          "opex": 10810000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 232071782.0,
+          "health_benefit": 5030530822.0,
+          "congestion_benefit": 4658559000.0,
+          "total_benefit": 9921161604.0,
+          "total_cost": 10810000000.0,
+          "net": -888838396.0
+        },
+        {
+          "year": 5.0,
+          "usage": 43118750.0,
+          "capex": 1350000000.0,
+          "opex": 10810000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 238429440.0,
+          "health_benefit": 5168343322.0,
+          "congestion_benefit": 4786181250.0,
+          "total_benefit": 10192954012.0,
+          "total_cost": 12160000000.0,
+          "net": -1967045988.0
+        },
+        {
+          "year": 6.0,
+          "usage": 44268500.0,
+          "capex": 0.0,
+          "opex": 10810000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 244787098.0,
+          "health_benefit": 5306155822.0,
+          "congestion_benefit": 4913803500.0,
+          "total_benefit": 10464746420.0,
+          "total_cost": 10810000000.0,
+          "net": -345253580.0
+        },
+        {
+          "year": 7.0,
+          "usage": 45418250.0,
+          "capex": 0.0,
+          "opex": 10810000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 251144755.0,
+          "health_benefit": 5443968322.0,
+          "congestion_benefit": 5041425750.0,
+          "total_benefit": 10736538827.0,
+          "total_cost": 10810000000.0,
+          "net": -73461173.0
+        },
+        {
+          "year": 8.0,
+          "usage": 46568000.0,
+          "capex": 0.0,
+          "opex": 10810000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 257502413.0,
+          "health_benefit": 5581780822.0,
+          "congestion_benefit": 5169048000.0,
+          "total_benefit": 11008331235.0,
+          "total_cost": 10810000000.0,
+          "net": 198331235.0
+        },
+        {
+          "year": 9.0,
+          "usage": 47717750.0,
+          "capex": 0.0,
+          "opex": 10810000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 263860070.0,
+          "health_benefit": 5719593322.0,
+          "congestion_benefit": 5296670250.0,
+          "total_benefit": 11280123642.0,
+          "total_cost": 10810000000.0,
+          "net": 470123642.0
+        },
+        {
+          "year": 10.0,
+          "usage": 48867500.0,
+          "capex": 1350000000.0,
+          "opex": 10810000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 270217728.0,
+          "health_benefit": 5857405822.0,
+          "congestion_benefit": 5424292500.0,
+          "total_benefit": 11551916050.0,
+          "total_cost": 12160000000.0,
+          "net": -608083950.0
+        },
+        {
+          "year": 11.0,
+          "usage": 50017250.0,
+          "capex": 0.0,
+          "opex": 10810000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 276575386.0,
+          "health_benefit": 5995218322.0,
+          "congestion_benefit": 5551914750.0,
+          "total_benefit": 11823708458.0,
+          "total_cost": 10810000000.0,
+          "net": 1013708458.0
+        },
+        {
+          "year": 12.0,
+          "usage": 51167000.0,
+          "capex": 0.0,
+          "opex": 10810000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 282933043.0,
+          "health_benefit": 6133030822.0,
+          "congestion_benefit": 5679537000.0,
+          "total_benefit": 12095500865.0,
+          "total_cost": 10810000000.0,
+          "net": 1285500865.0
+        },
+        {
+          "year": 13.0,
+          "usage": 52316750.0,
+          "capex": 0.0,
+          "opex": 10810000000.0,
+          "salvage": 0.0,
+          "carbon_benefit": 289290701.0,
+          "health_benefit": 6270843322.0,
+          "congestion_benefit": 5807159250.0,
+          "total_benefit": 12367293273.0,
+          "total_cost": 10810000000.0,
+          "net": 1557293273.0
+        },
+        {
+          "year": 14.0,
+          "usage": 53466500.0,
+          "capex": 0.0,
+          "opex": 10810000000.0,
+          "salvage": 1050000000.0,
+          "carbon_benefit": 295648358.0,
+          "health_benefit": 6408655822.0,
+          "congestion_benefit": 5934781500.0,
+          "total_benefit": 12639085680.0,
+          "total_cost": 10810000000.0,
+          "net": 2879085680.0
+        }
+      ]
+    },
+    "_incremental_vs_Alt1": {
+      "Alt2_Regular": {
+        "dr_030": {
+          "incr_npv": 132.0,
+          "incr_bc_ratio": 1.848,
+          "incr_irr": 23.6,
+          "incr_payback_years": 6
+        },
+        "dr_045": {
+          "incr_npv": 111.01,
+          "incr_bc_ratio": 1.789,
+          "incr_irr": 23.6,
+          "incr_payback_years": 6
+        },
+        "dr_055": {
+          "incr_npv": 98.79,
+          "incr_bc_ratio": 1.747,
+          "incr_irr": 23.6,
+          "incr_payback_years": 6
+        }
+      },
+      "Alt3_Ebike": {
+        "dr_030": {
+          "incr_npv": 125.34,
+          "incr_bc_ratio": 1.523,
+          "incr_irr": 10.85,
+          "incr_payback_years": 10
+        },
+        "dr_045": {
+          "incr_npv": 92.08,
+          "incr_bc_ratio": 1.401,
+          "incr_irr": 10.85,
+          "incr_payback_years": 10
+        },
+        "dr_055": {
+          "incr_npv": 72.91,
+          "incr_bc_ratio": 1.325,
+          "incr_irr": 10.85,
+          "incr_payback_years": 10
+        }
+      }
+    }
+  },
+  "benefit_sensitivity": [
+    {
+      "target": "carbon",
+      "pct": -0.6,
+      "npv": -168.54,
+      "bc_ratio": 0.87,
+      "irr": -10.75,
+      "payback_years": null
+    },
+    {
+      "target": "health",
+      "pct": -0.6,
+      "npv": -510.99,
+      "bc_ratio": 0.614,
+      "irr": null,
+      "payback_years": null
+    },
+    {
+      "target": "congestion",
+      "pct": -0.6,
+      "npv": -484.45,
+      "bc_ratio": 0.634,
+      "irr": null,
+      "payback_years": null
+    },
+    {
+      "target": "all",
+      "pct": -0.6,
+      "npv": -860.02,
+      "bc_ratio": 0.353,
+      "irr": null,
+      "payback_years": null
+    },
+    {
+      "target": "carbon",
+      "pct": -0.4,
+      "npv": -163.02,
+      "bc_ratio": 0.874,
+      "irr": -10.15,
+      "payback_years": null
+    },
+    {
+      "target": "health",
+      "pct": -0.4,
+      "npv": -391.32,
+      "bc_ratio": 0.703,
+      "irr": -76.56,
+      "payback_years": null
+    },
+    {
+      "target": "congestion",
+      "pct": -0.4,
+      "npv": -373.63,
+      "bc_ratio": 0.716,
+      "irr": -64.67,
+      "payback_years": null
+    },
+    {
+      "target": "all",
+      "pct": -0.4,
+      "npv": -624.01,
+      "bc_ratio": 0.529,
+      "irr": null,
+      "payback_years": null
+    },
+    {
+      "target": "carbon",
+      "pct": -0.2,
+      "npv": -157.5,
+      "bc_ratio": 0.878,
+      "irr": -9.55,
+      "payback_years": null
+    },
+    {
+      "target": "health",
+      "pct": -0.2,
+      "npv": -271.65,
+      "bc_ratio": 0.793,
+      "irr": -26.04,
+      "payback_years": null
+    },
+    {
+      "target": "congestion",
+      "pct": -0.2,
+      "npv": -262.8,
+      "bc_ratio": 0.799,
+      "irr": -24.25,
+      "payback_years": null
+    },
+    {
+      "target": "all",
+      "pct": -0.2,
+      "npv": -387.99,
+      "bc_ratio": 0.706,
+      "irr": -74.18,
+      "payback_years": null
+    },
+    {
+      "target": "carbon",
+      "pct": 0,
+      "npv": -151.98,
+      "bc_ratio": 0.882,
+      "irr": -8.97,
+      "payback_years": null
+    },
+    {
+      "target": "health",
+      "pct": 0,
+      "npv": -151.98,
+      "bc_ratio": 0.882,
+      "irr": -8.97,
+      "payback_years": null
+    },
+    {
+      "target": "congestion",
+      "pct": 0,
+      "npv": -151.98,
+      "bc_ratio": 0.882,
+      "irr": -8.97,
+      "payback_years": null
+    },
+    {
+      "target": "all",
+      "pct": 0,
+      "npv": -151.98,
+      "bc_ratio": 0.882,
+      "irr": -8.97,
+      "payback_years": null
+    },
+    {
+      "target": "carbon",
+      "pct": 0.2,
+      "npv": -146.46,
+      "bc_ratio": 0.886,
+      "irr": -8.4,
+      "payback_years": null
+    },
+    {
+      "target": "health",
+      "pct": 0.2,
+      "npv": -32.31,
+      "bc_ratio": 0.972,
+      "irr": 1.88,
+      "payback_years": 14
+    },
+    {
+      "target": "congestion",
+      "pct": 0.2,
+      "npv": -41.16,
+      "bc_ratio": 0.965,
+      "irr": 1.15,
+      "payback_years": 14
+    },
+    {
+      "target": "all",
+      "pct": 0.2,
+      "npv": 84.03,
+      "bc_ratio": 1.059,
+      "irr": 11.17,
+      "payback_years": 9
+    },
+    {
+      "target": "carbon",
+      "pct": 0.4,
+      "npv": -140.94,
+      "bc_ratio": 0.89,
+      "irr": -7.84,
+      "payback_years": null
+    },
+    {
+      "target": "health",
+      "pct": 0.4,
+      "npv": 87.36,
+      "bc_ratio": 1.061,
+      "irr": 11.43,
+      "payback_years": 9
+    },
+    {
+      "target": "congestion",
+      "pct": 0.4,
+      "npv": 69.66,
+      "bc_ratio": 1.048,
+      "irr": 10.03,
+      "payback_years": 10
+    },
+    {
+      "target": "all",
+      "pct": 0.4,
+      "npv": 320.04,
+      "bc_ratio": 1.235,
+      "irr": 31.66,
+      "payback_years": 4
+    },
+    {
+      "target": "carbon",
+      "pct": 0.6,
+      "npv": -135.42,
+      "bc_ratio": 0.895,
+      "irr": -7.29,
+      "payback_years": null
+    },
+    {
+      "target": "health",
+      "pct": 0.6,
+      "npv": 207.03,
+      "bc_ratio": 1.151,
+      "irr": 21.24,
+      "payback_years": 6
+    },
+    {
+      "target": "congestion",
+      "pct": 0.6,
+      "npv": 180.48,
+      "bc_ratio": 1.131,
+      "irr": 18.99,
+      "payback_years": 7
+    },
+    {
+      "target": "all",
+      "pct": 0.6,
+      "npv": 556.05,
+      "bc_ratio": 1.411,
+      "irr": 60.99,
+      "payback_years": 2
+    }
+  ],
+  "procurement_note": "전동보조 자전거 대당 ₩200만원은 조달청 나라장터 2024년 공공입찰 평균 낙찰단가 범위(₩180~220만원)의 중위값이다. 개별 공고번호는 비공개 또는 접근 제한이므로 공공입찰 평균값으로 기록한다."
+}
